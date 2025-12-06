@@ -1,0 +1,54 @@
+/* Simple background color */
+.main {
+    background-color: #f0f4f7; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Center card */
+  .box {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .row {
+    margin-top: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 65%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-left: 8px;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fcc;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .info {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
